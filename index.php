@@ -73,6 +73,11 @@ and open the template in the editor.
                         20
                     </div>
                     <br>
+                    <div class="text-center" id="finalStepsButtonContainer">
+                        <button class="btn btn-success" id="lastOpenButton">OPEN BRIEFCASE</button>
+                        <button class="btn btn-info" id="lastSwapButton">SWAP BRIEFCASE</button>
+                    </div>
+                    <br>
                     <table class="table text-center">
                         <tr>
                             <td><button value="1" class="btn btn-primary briefcase" id="btn1">0 1</button></td>
@@ -199,6 +204,27 @@ and open the template in the editor.
                 </div>
             </div>
         </div>
+
+        <!-- Banker offer modal -->
+        <div class="modal fade" id="bankersOfferModal" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        BANKERS OFFER
+                    </div>
+                    <div class="modal-body">
+                        <h2>
+                            <div class="bankersOfferAmountContainer text-center"></div>
+                        </h2>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" id="confirmLuckyYesButton">DEAL</button>
+                        <button class="btn btn-default" id="confirmLuckyNoButton">NO DEAL</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
     </body>
 </html>
